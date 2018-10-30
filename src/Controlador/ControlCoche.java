@@ -10,7 +10,6 @@ import java.util.ArrayList;
 
 public class ControlCoche extends ControlDOM{
 
-    private final static String ET_TIENDA="tienda";
     private final static String ET_COCHE="coche";
     private final static String ET_MARCA="marca";
     private final static String ET_MODELO="modelo";

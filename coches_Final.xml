@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<tienda>
+    <coche precio="1000">
+        <marca>Ford</marca>
+        <modelo>Mondeo</modelo>
+        <puertas>cinco</puertas>
+        <motores>
+            <motor>
+                <combustible>Gasolina</combustible>
+                <potencia>120cv</potencia>
+            </motor>
+            <motor>
+                <combustible>Gas</combustible>
+                <potencia>20cv</potencia>
+            </motor>
+        </motores>
+    </coche>
+</tienda>

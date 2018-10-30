@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet href="coches.xsl" type="text/xsl"?>
+
+<tienda>
+    <coche xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="coches.xsd"
+           precio="14000">
+        <marca>Toyota</marca>
+        <modelo>Corolla</modelo>
+        <motores>
+            <motor>
+                <combustible>Gasolina</combustible>
+                <cilindrada>1400</cilindrada>
+                <potencia>100 cv</potencia>
+            </motor>
+        </motores>
+        <transmision>manual 5</transmision>
+        <peso>1600</peso>
+        <ancho>1760</ancho>
+        <alto>1465</alto>
+        <largo>4540</largo>
+        <deposito>50 litros</deposito>
+        <puertas>tres</puertas>
+        <baul>470</baul>
+        <velocidad>198</velocidad>
+        <descripcion xml:lang="es">
+            <![CDATA[
+			El Toyota Corolla es un autom�vil del segmento C producido por el fabricante japon�s de autom�viles 				Toyota desde el a�o 1966. En 1997, el Corolla se convirti� en el autom�vil m�s vendido del undo y en 				la actualidad supera las 32 millones de unidades vendidas.	
+		]]>
+        </descripcion>
+    </coche>
+
+    <coche xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="coches.xsd"
+           precio="34000">
+        <marca>Audi</marca>
+        <modelo>A3</modelo>
+        <motores>
+            <motor>
+                <combustible>Diesel</combustible>
+                <cilindrada>1968</cilindrada>
+                <potencia>140 cv</potencia>
+            </motor>
+        </motores>
+        <transmision>manual 5</transmision>
+        <peso>1600</peso>
+        <ancho>1765</ancho>
+        <alto>1421</alto>
+        <largo>4238</largo>
+        <deposito>60 litros</deposito>
+        <puertas>tres</puertas>
+        <baul>570</baul>
+        <velocidad>201</velocidad>
+        <descripcion xml:lang="es">
+            <![CDATA[
+			El Audi A3 es un autom�vil del segmento C producido por el fabricante alem�n Audi desde 1996, abarcando 3 generaciones hasta el momento. El A3 est� construido sobre la plataforma A que comparte con varios modelos del Grupo Volkswagen, como los Volkswagen Golf, �koda Octavia y SEAT Le�n.
+		]]>
+        </descripcion>
+    </coche>
+
+    <coche xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="coches.xsd"
+           precio="34000">
+        <marca>Bmw</marca>
+        <modelo>325d Berlina</modelo>
+        <motores>
+            <motor>
+                <combustible>Diesel</combustible>
+                <cilindrada>1995</cilindrada>
+                <potencia>218 cv</potencia>
+            </motor>
+        </motores>
+        <transmision>manual 6</transmision>
+        <peso>1550</peso>
+        <ancho>1811</ancho>
+        <alto>1429</alto>
+        <largo>4624</largo>
+        <deposito>57 litros</deposito>
+        <puertas>cinco</puertas>
+        <baul>480</baul>
+        <velocidad>245</velocidad>
+        <descripcion xml:lang="es">
+            <![CDATA[
+			El BMW Serie 3 es un autom�vil del segmento D producido por el fabricante alem�n BMW desde el a�o 1975. Es el modelo m�s vendido de BMW y abarca seis generaciones. El Serie 3, situado un escal�n por debajo del Serie 5, se ofrece con carrocer�as cup� de dos puertas, sed�n de cuatro puertas, descapotable de dos puertas y familiar de cinco puertas.1
+		]]>
+        </descripcion>
+    </coche>
+
+    <coche xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="coches.xsd"
+           precio="80000">
+        <marca>Tesla</marca>
+        <modelo>Model S</modelo>
+        <motores>
+            <motor>
+                <combustible>Electricidad</combustible>
+                <cilindrada>1000</cilindrada>
+                <potencia>250 cv</potencia>
+            </motor>
+            <motor>
+                <combustible>Electricidad</combustible>
+                <cilindrada>1200</cilindrada>
+                <potencia>150 cv</potencia>
+            </motor>
+        </motores>
+        <transmision>manual 5</transmision>
+        <peso>1600</peso>
+        <ancho>1760</ancho>
+        <alto>1465</alto>
+        <largo>4540</largo>
+        <deposito>50 litros</deposito>
+        <puertas>tres</puertas>
+        <baul>470</baul>
+        <velocidad>198</velocidad>
+        <descripcion xml:lang="es">
+            <![CDATA[
+			El Toyota Corolla es un autom�vil del segmento C producido por el fabricante japon�s de autom�viles 				Toyota desde el a�o 1966. En 1997, el Corolla se convirti� en el autom�vil m�s vendido del undo y en 				la actualidad supera las 32 millones de unidades vendidas.
+		]]>
+        </descripcion>
+    </coche>
+
+</tienda>

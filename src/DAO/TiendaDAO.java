@@ -6,7 +6,6 @@ import Modelo.Tienda;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
-import java.sql.SQLException;
 
 public class TiendaDAO {
     //Cargas y Descargas de todos los elementos de la Base de datos

@@ -2,6 +2,8 @@ package Vista;
 
 import Controlador.ControlDOM;
 import Controlador.ControlTienda;
+import DAO.Conexion_BD;
+import DAO.TiendaDAO;
 import Modelo.Coche;
 import Modelo.Motor;
 import Modelo.Tienda;
@@ -11,12 +13,13 @@ import javax.xml.parsers.ParserConfigurationException;
 import javax.xml.transform.TransformerException;
 import java.io.File;
 import java.io.IOException;
+import java.sql.Connection;
 import java.util.ArrayList;
 import java.util.Scanner;
 
 public class Main {
 
-    public static void main(String[] args) throws ParserConfigurationException, SAXException, IOException, TransformerException {
+    public static void main(String[] args) throws Exception {
         Scanner tec = new Scanner(System.in);
         int opcion = 0;
 
@@ -26,6 +29,10 @@ public class Main {
         File file1 = new File("coches.xml");
         File file2 = new File("coches_Final.xml");
         Tienda tienda = null;
+
+        Conexion_BD conex = new Conexion_BD();
+        Connection con  = conex.AbrirConexion();
+        TiendaDAO tiendaDAO = new TiendaDAO();
 
         do {
             menu();
@@ -58,8 +65,16 @@ public class Main {
                 case 6:
                     controlTienda.Guardar(file2, doc);
                     break;
+                case 7:
+                    tiendaDAO.cargarDatos(tienda, con);
+                    break;
+                case 8:
+                    tiendaDAO.descargarDatos(tienda, con);
+                    break;
             }
         }while (opcion != 0);
+        System.out.println("Conexión cerrada");
+        conex.CerrarConexion(con);
     }
 
     public static void menu(){
@@ -69,6 +84,8 @@ public class Main {
         System.out.println("4. Añadir coches de ejemplo");
         System.out.println("5. Escribir (OBJETO a DOM)");
         System.out.println("6. Guardar (DOM a XML)");
+        System.out.println("7. Cargar Base de Datos");
+        System.out.println("8. Descargar Base de Datos");
         System.out.println("0. Salir");
     }
 

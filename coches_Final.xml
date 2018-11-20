@@ -1,17 +1,50 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <tienda>
-    <coche precio="1000">
-        <marca>Ford</marca>
-        <modelo>Mondeo</modelo>
-        <puertas>cinco</puertas>
+    <coche precio="14000">
+        <marca>Toyota</marca>
+        <modelo>Corolla</modelo>
+        <puertas>tres</puertas>
         <motores>
             <motor>
                 <combustible>Gasolina</combustible>
-                <potencia>120cv</potencia>
+                <potencia>100 cv</potencia>
+            </motor>
+        </motores>
+    </coche>
+    <coche precio="34000">
+        <marca>Audi</marca>
+        <modelo>A3</modelo>
+        <puertas>tres</puertas>
+        <motores>
+            <motor>
+                <combustible>Diesel</combustible>
+                <potencia>140 cv</potencia>
+            </motor>
+        </motores>
+    </coche>
+    <coche precio="34000">
+        <marca>Bmw</marca>
+        <modelo>325d Berlina</modelo>
+        <puertas>cinco</puertas>
+        <motores>
+            <motor>
+                <combustible>Diesel</combustible>
+                <potencia>218 cv</potencia>
+            </motor>
+        </motores>
+    </coche>
+    <coche precio="80000">
+        <marca>Tesla</marca>
+        <modelo>Model S</modelo>
+        <puertas>tres</puertas>
+        <motores>
+            <motor>
+                <combustible>Electricidad</combustible>
+                <potencia>250 cv</potencia>
             </motor>
             <motor>
-                <combustible>Gas</combustible>
-                <potencia>20cv</potencia>
+                <combustible>Electricidad</combustible>
+                <potencia>150 cv</potencia>
             </motor>
         </motores>
     </coche>

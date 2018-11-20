@@ -1,15 +1,25 @@
 package Modelo;
 
 public class Motor {
+    private int id;
     private String combustible;
     private String potencia;
 
     public Motor(String combustible, String potencia) {
+        this.id = 0;
         this.combustible = combustible;
         this.potencia = potencia;
     }
 
     public Motor() {
+    }
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
     }
 
     public String getCombustible() {
@@ -31,7 +41,8 @@ public class Motor {
     @Override
     public String toString() {
         return "Motor{" +
-                "combustible='" + combustible + '\'' +
+                "id=" + id +
+                ", combustible='" + combustible + '\'' +
                 ", potencia='" + potencia + '\'' +
                 '}';
     }
